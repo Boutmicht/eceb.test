@@ -1,0 +1,2320 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: proxyFont;
+}
+
+@font-face {
+  font-family: proxyFont;
+  src: url("../fonts/Cinzel-Medium.otf") format('opentype');
+}
+@font-face {
+  font-family: proxyFontBold;
+  src: url("../fonts/Cinzel-Regular.otf") format('opentype');
+}
+
+ 
+
+
+
+.section-formations{
+    position: relative;
+margin-top: 40px;
+display: block;
+padding:0;
+}
+
+.section-formations .title-formations-all{
+    display: block;
+position: relative;
+text-align: center;
+background: white;
+width: max-content;
+float: none;
+margin: auto;
+font-size: 20px;
+font-weight: bold;
+font-variant: all-petite-caps;
+color: #e70d32;
+font-family: proxyFont;
+}
+.section-formations .title-formations-all::before{
+display: block;
+background: red;
+width: 100%;
+height: 1px;
+z-index: 1;
+position: absolute;
+
+}
+
+.section-formations .description-formations-all{
+    position: relative;
+display: block;
+width: 100%;
+float: none;
+text-align: left;
+color: #3e3e3e;
+font-size: 14px;
+text-align: center;
+}
+
+.section-formations .grids-formations-all{
+position: relative;
+display: block;
+margin-top: 30px;
+}
+
+
+
+.section-formations .grids-formations-all .action-formation{
+    position: absolute;
+display: block;
+text-align: center;
+margin: auto;
+float: none;
+width: 100%;
+background:transparent;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 20px 10px;
+}
+
+.section-formations .grids-formations-all .action-formation::before{
+    content: '';
+    position: absolute;
+display: block;
+text-align: center;
+margin: auto;
+float: none;
+width: 100%;
+background:#e70d32;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 20px 10px;
+opacity:0;
+transition:0.3s;
+}
+
+ 
+
+.section-formations .grids-formations-all .icon-formation{
+position: relative;
+display: block;
+padding: 5px;
+background: transparent;
+float: none;
+margin: auto;
+left: 0;
+right: 0;
+top: 30%;
+opacity: 1;
+color: white;
+font-variant: all-petite-caps;
+font-size: 20px;
+text-align: center; 
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: repeat;
+background-color: transparent;
+background-repeat: no-repeat;
+width: 60px;
+height: 60px;
+}
+.section-formations .grids-formations-all .icon-coiffure, .section-formations .grids-formations-all .icon-coiffure:hover, .section-formations .grids-formations-all .icon-coiffure:focus{
+background: url(../files/icon-coiffure.svg);
+}
+
+
+
+.section-formations .grids-formations-all .icon-esthetique ,.section-formations .grids-formations-all .icon-esthetique:hover, .section-formations .grids-formations-all .icon-esthetique:focus{
+background: url(../files/icon-esthetique.svg);
+}
+
+.section-formations .grids-formations-all .titre-formation{
+    position: relative;
+display: block;
+padding: 4px;
+opacity: 1;
+color: white;
+font-variant: all-petite-caps;
+font-size: 20px;
+text-align: center;
+}
+.section-formations .grids-formations-all .box-formation{
+ position: relative;
+display: block;
+background: transparent;
+height: 340px; 
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+background-size: cover !important;
+background-position: center center !important;
+box-shadow: 0px 0px 0px 10px #bebebe;
+transition:0.3s;
+cursor:pointer;
+}
+
+.section-formations .grids-formations-all .box-formation::before{
+    content: '';
+    position: absolute;
+display: block;
+text-align: center;
+margin: auto;
+float: none;
+width: 100%;
+background:#e70d32;
+top:100%;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 20px 10px;
+opacity:0;
+transition:0.3s;
+overflow: hidden !important;
+}
+
+.section-formations .grids-formations-all .box-formation:hover:before{
+    content: '';
+    position: absolute;
+display: block;
+text-align: center;
+margin: auto;
+float: none;
+width: 100%;
+background:#e70d32;
+top:50%;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 20px 10px;
+opacity:0.8;
+transition:0.3s;
+overflow: hidden !important;
+}
+
+
+
+.section-formations .grids-formations-all .box-formation:hover, .section-formations .grids-formations-all .box-formation:focus{
+ position: relative;
+display: block;
+background: transparent;
+height: 340px; 
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+background-size: cover !important;
+background-position: center center !important;
+box-shadow: 0px 0px 0px 10px #e70d32;
+transition:0.3s;
+cursor:pointer;
+overflow: hidden !important;
+}
+
+.section-formations .grids-formations-all .wallpaper-coiffure, .section-formations .grids-formations-all .wallpaper-coiffure:hover, .section-formations .grids-formations-all .wallpaper-coiffure:focus{
+    background: url(../files/wallpaper-coiffure.jpg);
+    overflow: hidden !important;
+}
+.section-formations .grids-formations-all .wallpaper-esthetique, .section-formations .grids-formations-all .wallpaper-esthetique:hover, .section-formations .grids-formations-all .wallpaper-esthetique:focus{
+  background: url(../files/wallpaper-esthetique.jpg);
+  overflow: hidden !important;
+}
+
+
+
+.section-presentation-school{
+     position: relative;
+margin-top: 40px;
+display: block; 
+width:100%;
+}
+
+.section-presentation-school .box-wallpaper-school{
+  position:relative;
+  width:80%;
+  height:360px;
+  padding:20px;
+  background: url(../files/ecole-wallpaper.jpg);
+  position: relative;
+width: 80%;
+height: 360px;
+padding: 20px;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-color: transparent; 
+/*border-radius:50px 0;*/
+box-shadow: 0px 0px 0px 10px #bebebe;
+border-radius: 0 0 0 50px;
+}
+
+.section-presentation-school .box-action-school{
+position: absolute;
+top: 0;
+right: 0;
+text-align: left;
+background:transparent;
+margin-top: 60px;
+width: 500px;
+padding: 10px 20px;
+color: white;
+max-height: 240px;
+overflow: hidden;
+text-overflow: ellipsis;
+height: 240px; 
+border-radius:50px 0;
+box-shadow: 0px 0px 0px 10px #e70d32;
+}
+
+.section-presentation-school .box-action-school::before{
+content: '';
+position: absolute;
+background: #e70d32;
+width: 100%;
+height: 100%;
+opacity: 0.7;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.section-presentation-school .box-action-school span{
+    position:relative;
+font-variant: all-petite-caps;
+font-size: 17px;
+color:white;
+background:transparent;
+}
+
+
+
+
+
+.section-digitals{
+  position:relative;
+ display: block;
+ margin:auto;
+ margin-top:20px;
+}
+
+.section-digitals .title-digitals-all{
+display: block;
+background: transparent;
+width: 100%;
+color:#e70d32;
+font-size:20px;
+font-variant:all-petite-caps;
+font-family: proxyFont;
+text-align: center;padding:0 20px;
+font-weight: bold;
+}
+
+
+.section-digitals .description-digitals-all{
+display: block;
+background: transparent;
+width: 100%;
+color:#424242;
+font-size:16px;
+font-variant:all-petite-caps;
+font-family: proxyFont;
+text-align: center;padding:0 20px; 
+}
+
+.section-digitals .grids-digitals-all{
+position:relative;
+display:block;
+margin:20px;
+}
+
+.section-digitals .grids-digitals-all .grid-digital-video iframe{
+width: 100%;
+height: auto;
+min-height: 240px;
+}
+
+
+.section-digitals .grids-digitals-all .grid-digital-photos{
+width: 100%;
+height: auto;
+min-height: 240px;
+}
+.section-digitals .grids-digitals-all .grid-digital-photos ul{
+position: relative;
+width: 100%;
+height: auto;
+list-style: none;
+display: block;
+margin: 0;
+}
+
+.section-digitals .grids-digitals-all .grid-digital-photos li{
+position: relative;
+display:block;
+width:50%;
+float: left;
+height: auto;
+min-height: 120px;
+
+  background: url(../files/ecole-wallpaper.jpg) ; 
+background-size: cover !important;
+background-position: center center !important;
+background-repeat: no-repeat !important; 
+overflow:hidden;
+cursor:pointer;
+}
+
+/*.section-digitals .grids-digitals-all .grid-view-pictures{
+position: absolute;
+height: 240px;
+background-color: red;
+display: block;
+z-index: 99999;
+width: 100%;
+top: 0;
+box-shadow: 50px 0px 0px 0px #e70d32; 
+
+}*/
+
+.section-digitals .grids-digitals-all .grid-digital-photos li:hover .grid-view-pictures{
+position: absolute;
+height: 240px;
+background-color: white !important;
+display: block;
+z-index: 99999;
+width: 100%;
+top: 0;
+box-shadow: 50px 0px 0px 0px #e70d32;
+display:none;
+
+}
+
+
+.section-digitals .grids-digitals-all .grid-digital-photos li::after{
+    content:'';
+position: absolute;
+display:block;
+width:100%;
+float: left;
+height: auto;  
+}
+
+/*.section-digitals .grids-digitals-all .grid-digital-photos li:hover:after {
+     content:'';
+     
+    position:fixed;
+    width:50%;
+    height:100%;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 999; 
+    float:left; 
+    box-shadow: 0px 0px 0px 10px #e70d32;
+    opacity:1;
+    background-color:#fff !important;
+  background: url(../files/ecole-wallpaper.jpg) ; 
+background-size: contain !important;
+background-position: center center !important;
+background-repeat: no-repeat !important; 
+}*/
+
+/*{
+    position: absolute;
+display:block;
+width:100%;
+text-align:center;
+left:0;
+right:0;
+ 
+bottom:-50%;
+cursor:pointer;
+background:  #e70d32;
+padding:15px;
+color:#fff;
+text-decoration: none;
+font-size:16px;
+font-variant:all-petite-caps;
+font-family: proxyFont;
+}*/
+
+.section-digitals .grids-digitals-all .grid-digital-photos li:hover span{
+
+position: absolute;
+display:block;
+width:100%;
+text-align:center;
+left:0;
+right:0;
+/*top:0;*/
+bottom:0%;
+cursor:pointer;
+background:  #e70d32;
+padding:15px;
+color:#fff;
+text-decoration: none;
+font-size:16px;
+font-variant:all-petite-caps;
+font-family: proxyFont;
+
+}
+
+
+
+
+
+
+
+
+.section-digitals .grids-digitals-all .grid-digital-photos span{
+position: absolute;
+display:block;
+width:100%;
+text-align:center;
+left:0;
+right:0;
+/*top:0;*/
+bottom:-50%;
+cursor:pointer;
+background:  #e70d32;
+padding:15px;
+color:#fff;
+text-decoration: none;
+font-size:16px;
+font-variant:all-petite-caps;
+font-family: proxyFont;
+transition:0.3s;
+}
+
+
+.view-full-screen{
+    position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+background:transparent;
+height: 100%;
+bottom: 0;
+right: 0;
+display: block;
+z-index: 99;
+}
+
+.view-full-screen::before{
+content:'';
+position:absolute;
+width:100%;
+height:100%;
+background: black;
+opacity:0.8;
+}
+
+.picture-view{
+    max-width: 500px;
+position: absolute;
+max-height: 700px;
+background-color: black !important;
+float: none;
+margin: auto;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+  background: url(../files/ecole-wallpaper.jpg) ; 
+background-size: contain !important;
+background-position: center center !important;
+background-repeat: no-repeat !important; 
+}
+.close-picture-view{
+    position: absolute;
+display: inherit;
+margin: auto;
+    margin-top: auto;
+float: none;
+left: 0;
+right: 0;
+font-size: 20px;
+color: white;
+width: min-content;
+margin-top: 40px;
+cursor:pointer;
+display: block;
+width: 100%;
+text-align: center;
+z-index:1;
+}
+
+.close-picture-view:hover , .close-picture-view:focus{
+    position: absolute;
+display: inherit;
+margin: auto;
+    margin-top: auto;
+float: none;
+left: 0;
+right: 0;
+font-size: 20px;
+color: white;
+width: min-content;
+margin-top: 40px;
+cursor:pointer;
+display: block;
+width: 100%;
+text-align: center;
+z-index:1;
+}
+
+
+/* PAGE RENDEZ-VOUS */
+
+.section-rendez-vous {
+display:block;
+position:relative;
+margin:auto;
+padding:0;
+}
+
+.section-rendez-vous .title-rendez-vous-all{
+position: relative;
+background: transparent;
+display:block;
+text-align:center;
+width: 100%;  
+margin:auto;
+text-align:center;
+color: #e70d32;
+font-size:20px;
+font-weight:bold;
+font-variant: all-small-caps;
+
+}
+
+.section-rendez-vous  .description-rendez-vous-all{
+position: relative;
+background: transparent;
+display:block; 
+width: 100%;  
+margin:auto;
+text-align:center;
+color: #424242;
+font-size:16px; 
+font-variant: all-small-caps;
+margin:auto;
+margin-bottom:30px;
+}
+
+.content-form-rendez-vous{
+  display: block;
+position: relative;
+padding: 40px 20px;
+background: transparent;
+}
+
+.content-form-rendez-vous .icon-form{
+display: block;
+position: relative;
+width: 80px;
+height: 80px;
+background: white;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-image: none;
+    background-size: auto;
+margin: auto;
+float: none;
+text-align: center;
+left: 0;
+right: 0;
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+background-image: url(../files/logo_header_eceb.svg);
+border-radius: 50px;
+padding: 0;
+box-shadow:0px 0px 0px 5px #e70d32;
+}
+.content-form-rendez-vous  .title-form{
+display: block;
+position: relative;
+width: 100%;
+text-align: center;
+font-size: 17px;
+font-variant: all-petite-caps;
+font-weight: bold;
+color: #424242;
+margin:10px auto;
+margin-bottom:20px;
+padding:0;
+padding-bottom:20px;
+border:none;
+border-bottom:1px solid #cecece;
+}
+
+.content-form-rendez-vous .section-detail-rendez-vous{
+display:block;
+position:relative;
+margin:auto;
+min-height: 160px;
+/*border-bottom:1px solid #cecece;*/
+}
+
+.grid-rendezvous-detail{
+  position:relative;
+  margin-bottom:
+
+}
+
+.section-detail-rendez-vous .title-detail-rendez-vous{
+display: block;
+position: relative;
+margin: auto;
+text-align: left;
+padding: 10px 0 0 0;
+font-weight: initial;
+font-size: 15px;
+color: #424242;
+font-weight: inherit;
+}
+
+
+.section-detail-rendez-vous .valeur-detail-rendez-vous{
+display: block;
+position: relative;
+margin: auto;
+text-align: left;
+padding: 10px 0 0 0;
+font-weight: initial;
+font-size: 15px;
+color: #e70d32;
+font-weight: bold;
+}
+
+.section-detail-rendez-vous .section-select-formation{
+  position:relative;
+  display:block;
+  margin-bottom: 40px;
+  min-height:360px;
+
+}
+
+.section-detail-rendez-vous .section-select-formation .title-formation-selected{
+  display: block;
+position: relative;
+margin: auto;
+text-align: left;
+padding: 10px 0 0 0;
+font-weight: initial;
+font-size: 15px;
+color: #424242;
+font-weight: inherit;
+}
+
+.section-detail-rendez-vous .section-select-formation .valeur-formation-selected{
+display: block;
+position: relative;
+margin: auto;
+text-align: left;
+font-size: 15px;
+color: #3e3e3e;
+font-weight: bold;
+width: 100%;
+padding: 15px;
+    padding-right: 15px;
+background: #f7f7f7;
+padding-right: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+box-shadow: 0px 7px 0px #e70d32;  
+transition:0.3s;
+cursor:pointer;
+}
+
+ 
+
+.section-detail-rendez-vous .section-select-formation .valeur-formation-selected:hover{
+display: block;
+position: relative;
+margin: auto;
+text-align: left;
+font-size: 15px;
+color: white;
+font-weight: bold;
+width: 100%;
+padding: 15px;
+    padding-right: 15px;
+background: #e70d32;
+padding-right: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+box-shadow: 0px 7px 0px #e70d32;  
+transition:0.3s;
+cursor:pointer;
+}
+ 
+
+.section-detail-rendez-vous .icon-formation-selected{
+position: absolute;
+width: 100px;
+height: auto;
+min-height: 60px;
+background-color: red;
+display: block;
+margin-top: 0;
+background-color:black;
+  background: url(../files/wallpaper-coiffure.jpg) ; 
+background-size: cover !important;
+background-position: center center !important;
+background-repeat: no-repeat !important; 
+right:0;
+top:0;
+ 
+bottom:0;
+margin:auto;
+float:right; 
+}
+
+.section-detail-rendez-vous .section-select-formation .label-formation-selected{
+  display: block;
+position: relative;
+margin: auto;
+text-align: left;
+padding: 10px 0 0 0;
+font-weight: initial;
+font-size: 15px;
+color: #424242;
+font-weight: inherit;
+}
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation{
+width: 100%;
+padding: 0;
+list-style: none;
+position: relative;
+margin: 0;
+top: 0;
+left: 0;
+right: 0;
+background: transparent;
+transition: 0.3s;
+height: 0 !important;
+}
+
+
+/*.section-detail-rendez-vous .section-select-formation .ul-formation-hover{
+transition: 0.3s;
+height: auto !important;
+}*/
+ 
+
+
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation .li-choose-formation{
+  padding:0;
+position: relative;
+display: block;
+transition:0.3s;
+margin-bottom:2px;
+}
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation .li-choose-formation:hover .span-choose-formation{
+ box-shadow: 0px 0px 0px 4px #e70d32;  
+ z-index:999;
+ background-color:transparent;
+}
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation .formation-chosed{
+background-color: #e70d32 !important;
+color: white !important;
+}
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation .li-choose-formation .span-choose-formation{
+  font-size: 15px;
+  position:relative;
+font-variant: all-petite-caps;
+font-weight: initial;
+color: white;
+text-align: center;
+display: block;
+cursor:pointer;
+scale:1;
+transition:0.3s;
+ padding: 10px;
+ text-align: left;
+color: #3e3e3e;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+/*box-shadow: 0px 7px 0px #e70d32;  */
+min-height: 60px;
+background: #f7f7f7;
+color: #3e3e3e;
+text-align: left;
+line-height: 2.5;
+height: 60px;
+font-weight: bold;
+overflow: inherit;
+
+}
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation .li-choose-formation .formation-chosed i{
+  position: absolute !important;
+left: -30px !important;
+top: 20px !important;
+color: #e70d32;
+}
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation .li-choose-formation .span-choose-formation .btn-savoir-plus{
+  position: absolute;
+display: inline-block;
+top: 0;
+right: 0;
+bottom: 0;
+color: white;
+z-index: 99999;
+text-align: right;
+padding: 10px;
+font-size: 14px;
+line-height: 2.5;
+text-decoration:none;
+padding-right:5px;
+transition:0.3s;
+}
+
+
+.section-detail-rendez-vous .section-select-formation .ul-choose-formation .li-choose-formation .span-choose-formation .btn-savoir-plus:hover{
+  position: absolute;
+display: inline-block;
+top: 0;
+right: 0;
+bottom: 0;
+color: white;
+z-index: 99999;
+text-align: right;
+padding: 10px;
+font-size: 14px;
+line-height: 2.5;
+text-decoration:underline;
+padding-right:5px;
+transition:0.3s;
+}
+
+/*.section-detail-rendez-vous .section-select-formation .ul-choose-formation .li-choose-formation .span-choose-formation:hover{
+ font-weight: bold;
+ transition:0.3s;
+   padding: 10px;
+}
+*/
+ .section-form-detail .grids-form{
+ display: block;
+width: 100%;
+position: relative;
+min-height: 80px;
+}
+
+
+.section-form-detail .title-section-form-detail{
+    font-size: 20px;
+font-variant: all-petite-caps;
+font-family: proxyfont;
+color: #424242;
+text-align: left;
+display: block;
+padding: 5px 0;
+    padding-left: 0px;
+margin-bottom: 0;
+padding-left: 20px;
+}
+
+.section-form-detail .grids-form .succes-span {
+    display: block;
+    margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 15px;
+    box-shadow: none;
+    width: 100%;
+    color: #fff;
+    text-shadow: none;
+    background: #81aa7c;
+    padding: 30px 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 50px;
+}
+
+
+
+.section-form-detail .grids-form .succes-span i, .incorrect-span i {
+    color: white !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 15px !important;
+}
+
+.section-form-detail .grids-form .incorrect-span {
+    display: block;
+    margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 15px;
+    box-shadow: none;
+    width: 100%;
+    color: #fff;
+    text-shadow: none;
+    background: #f56060;
+    padding: 30px 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 50px;
+}
+
+.section-form-detail .grids-form i {
+    position: absolute;
+    top: 15px;
+    font-size: 25px;
+    color: #3e3e3e;
+    z-index: 99;
+    left: 25px;
+}
+
+.section-form-detail .grids-form input[type="text"] {
+    width: 100%;
+    padding: 15px 20px 15px 60px;
+    background: #f7f7f7;
+    color: #3e3e3e;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    font-size: 17px;
+    transition: 0.3s;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    position: absolute;
+    border-radius: 50px 50px 50px 50px;
+    border-radius:0;
+    float: none;
+    margin: auto;
+    left: 0;
+    z-index: 10;
+    top: 0;
+}
+
+.section-form-detail .grids-form input[type="text"]::before {
+      position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    background: transparent;
+    right: 0;
+    left: 0;
+    float: none;
+    margin: auto;
+    opacity:1;
+    box-shadow: 0px 0px 0px 10px #e70d32; 
+    transition:0.3s;
+    z-index:9999;
+}
+
+.section-form-detail .grids-form .required-slide {
+    display: block;
+    background: #e70d32;
+    float: none;
+    margin: auto;
+    color: #d74a4a;
+    text-align: left;
+    font-size: 16px;
+    transition: 0.3s;
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    z-index: 3;
+    border-radius: 0 0 50px 50px;
+    border-radius:0;
+    top: 30px;
+    padding: 4px 55px;
+    animation-duration: 1.5s;
+}
+
+
+.section-form-detail .grids-form .required-i {
+    color: #ffb8b8 !important;
+}
+
+.section-form-detail .grids-form .required-input {
+    color: #d74a4a !important;
+    background: #fff5f5 !important;
+}
+
+.section-form-detail .grids-form .required-span {
+    background: #d74a4a !important;
+    color: #fff5f5 !important;
+    padding: 30px 55px 10px 55px !important;
+    animation-duration: 1.5s !important;
+}
+
+.section-form-detail .grids-form textarea {
+    width: 100%;
+    padding: 15px 20px 15px 60px;
+    background: #f7f7f7;
+    color: #3e3e3e;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    font-size: 17px;
+    transition: 0.3s;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    position: absolute;
+    border-radius: 50px 50px 50px 50px;
+    border-radius:0;
+    float: none;
+    margin: auto;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    height: 160px;
+    max-height: 160px;
+    min-height: 160px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.section-form-detail .grids-form .placeolderDescription{
+position: absolute;
+left: 60px;
+top: 15px;
+z-index: 99;
+font-variant: all-petite-caps;
+color: #424242;
+font-size: 17px;
+font-weight: bold;
+opacity: 0.6;
+display: block;
+}
+ 
+
+.section-form-detail .grids-form .btn-save {
+    font-size: 20px;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    background:  #e70d32;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-radius: 50pc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section-form-detail .grids-form .btn-save i {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.section-form-detail .grids-form .btn-spin {
+    font-size: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-radius: 24px;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 70px;
+    opacity: 0.8;
+    cursor: progress;
+    cursor: wait;
+}
+
+.section-form-detail .grids-form .btn-spin i {
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: #242424;
+    font-size: 24px;
+    -webkit-animation: spin 0.7s linear infinite;
+    -moz-animation: spin 0.7s linear infinite;
+    animation: spin 0.7s linear infinite;
+    text-align: center;
+}
+
+/* PAGE RENDEZ-VOUS */
+
+/* PAGE FORMATIONS */
+
+
+.section-formations-views{
+
+}
+
+.section-formations-views .ul-formation-view{
+
+position: relative;
+width: 100%;
+height: 100%;
+display: block;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background: #fff;
+min-height: 1000px;
+padding: 0;
+}
+
+.section-formations-views .ul-formation-view .container-formation-view{
+
+position:relative;
+display:block;
+min-height:300px;    
+max-height:360px;
+
+}
+
+.section-formations-views .ul-formation-view li{
+position: relative;
+width: 100%;
+height: auto;
+list-style: none;
+display: block;
+background: transparent;
+text-align: center;
+border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+/*border-bottom: 4px solid #ebebeb;*/
+margin:auto;
+padding:20px 0;
+cursor:pointer;
+}
+
+
+.section-formations-views .content-formation-view{
+position:relative;
+display:block;
+   background-size: 80% !important;
+    background-color: transparent !important;
+background-repeat: repeat !important;
+background-position:center center !important;
+width: 100%;
+height: 300px;
+display: block;
+margin:auto;
+transition:0.3s;
+cursor:pointer;
+}
+
+
+.section-formations-views .content-formation-view::before {
+    position: absolute;
+    content: '';
+    top: 20px;
+    bottom: 20px;
+    background: transparent;
+    right: 20px;
+    left: 20px;
+    float: none;
+    margin: auto;
+    opacity:1;
+    box-shadow: 0px 0px 0px 10px #e70d32;
+    box-shadow:none;
+    transition:0.3s;
+}
+.section-formations-views .container-formation-view:hover .content-formation-view::before{
+position: absolute;
+    content: '';
+    top: 20px;
+    bottom: 20px;
+    background: transparent;
+    right: 20px;
+    left: 20px;
+    float: none;
+    margin: auto;
+    opacity:1;
+    box-shadow: 0px 0px 0px 10px #e70d32; 
+    transition:0.3s;
+}
+
+
+
+.section-formations-views .container-formation-view:hover .content-formation-view{
+position:relative;
+display:block;
+   background-size: 120% !important;
+    background-color: transparent !important;
+background-repeat: repeat !important;
+background-position:center center !important;
+width: 100%;
+height: 300px;
+display: block;
+margin:auto;
+transition:0.3s;
+cursor:pointer;
+/*border-radius:0 50px;*/
+}
+
+.section-formations-views .container-formation-view:hover .action-formation-view{
+scale:1.3;
+}
+
+.section-formations-views .container-formation-view:hover .extension-formation-view{
+position: relative;
+display: block;
+text-align: center;
+margin-top: 30px;
+height: 240px;
+padding: 20px;
+box-shadow: 0px 0px 0px 10px #e70d32;
+background: #fff;
+border: 0;
+border-radius: 0 50px;
+font-size: 16px;
+font-variant: all-petite-caps;
+color: #e70d32;
+}
+
+
+
+
+.section-formations-views .wallpaper-formation-coiffure{
+background: url(../files/wallpaper-coiffure.jpg);
+/*border-radius: 0 50px;*/
+}
+.section-formations-views .wallpaper-formation-esthetique{
+background: url(../files/wallpaper-esthetique.jpg);
+  
+}
+.section-formations-views .wallpaper-formation-microblading{
+background: url(../files/wallpaper-microblading.jpg);
+  
+}
+.section-formations-views .wallpaper-formation-ongulaire{
+background: url(../files/wallpaper-ongulaire.jpg);
+  
+}
+
+.section-formations-views .wallpaper-formation-makeup{
+background: url(../files/wallpaper-makeup.jpg);
+  
+}
+
+
+
+
+.section-formations-views .action-formation-view{
+position:absolute;
+display: block;
+left:0;
+right:0;
+bottom: 0;
+top:40%;
+transition:0.3s;
+}
+
+
+.section-formations-views .icon-formation-view{
+
+    background-size: contain !important;
+    background-color: transparent !important;
+background-repeat: no-repeat !important;
+width: 60px;
+height: 60px;
+display: block;
+margin:auto;
+}
+
+.icon-formation-coiffure{
+        background: url(../files/icon-coiffure.svg);
+}
+.icon-formation-esthetique{
+        background: url(../files/icon-esthetique.svg);
+}
+
+.icon-formation-microblading{
+        background: url(../files/icon-microblading.svg);
+}
+.icon-formation-ongulaire{
+        background: url(../files/icon-ongulaire.svg);
+}
+.icon-formation-makeup{
+        background: url(../files/icon-makeup.svg);
+}
+
+.section-formations-views .title-formation-view{
+font-size: 20px;
+font-variant: all-petite-caps;
+font-family: proxyfont;
+color:  white;
+display: block;
+margin: auto;
+position:relative;
+}
+
+
+
+.extension-formation-view{
+position: relative;
+display: block;
+text-align: center; 
+margin:auto;
+margin-top: 30px;
+height: 240px;
+padding: 20px;
+box-shadow: 0px 0px 0px 10px #bebebe; 
+background: #fff;
+border: 0;
+/*border-radius: 0 50px;*/
+font-size: 16px;
+font-variant: all-petite-caps;
+color: #6b6b6b;
+transition:0.3s;
+}
+ 
+
+/* PAGE FORMATIONS */
+
+/* PAGE EVENEMENTS */
+.time-galerie-events{
+    display: block;
+position: absolute;
+margin: auto;
+text-align: right;
+color: #8a8a8a;
+font-variant: all-petite-caps;
+font-size: 11px;
+line-height: 1.2;
+font-weight: bold;
+margin: auto;
+padding: 0; 
+right:16px;
+top:0;
+}
+.title-galerie-events{
+    display: block;
+position: relative;
+margin: auto;
+margin: auto; 
+text-align: left;
+color: #e70d32;
+font-variant: all-petite-caps;
+font-weight: bold;
+font-size: 20px;
+margin-top: 0;
+}
+.descr-galerie-events{
+    display: block;
+position: relative;
+margin: auto;
+text-align: left;
+color: #484848;
+font-variant: all-petite-caps;
+font-size: 15px;
+line-height: 1.2;
+}
+
+.ul-galerie-events{
+    display: block;
+position: relative;
+line-height: normal;
+padding: 0;
+margin-top:20px;
+}
+.li-galerie-events{
+    list-style: none;
+position: relative;
+display: inline-block;
+}
+
+.ico-galerie-events{
+    position: relative;
+width: 140px;
+height: 120px;
+display: block;
+/*background: red;*/ 
+  background-size: cover !important;
+    background-color: transparent !important;
+background-repeat: no-repeat !important;
+background: url(../files/wallpaper-esthetique.jpg);
+}
+
+.ico-galerie-events::before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    bottom: 10px;
+    background: transparent;
+    right: 10px;
+    left: 10px;
+    float: none;
+    margin: auto;
+    opacity:1;
+    box-shadow: 0px 0px 0px 10px transparent; ;
+    transition:0.3s; 
+    cursor:pointer;
+}
+
+.ico-galerie-events:hover:before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    bottom: 10px;
+    background: transparent;
+    right: 10px;
+    left: 10px;
+    float: none;
+    margin: auto;
+    opacity:1;
+    box-shadow: 0px 0px 0px 10px #e70d32; ;
+    transition:0.3s; 
+    cursor:pointer;
+}
+
+
+ 
+
+/* PAGE EVENEMENTS */
+
+
+/* PAGE CONTACT */
+
+.content-contact{
+    display: block;
+width: 100%;
+background: white;
+border: 1px solid #e6e3e3;
+padding: 0;
+}
+
+.content-contact .section-maps-contact{
+
+}
+
+.section-maps-contact iframe{
+border: 0;
+height: 600px;
+}
+
+.content-contact .title-section-contact{
+    font-size: 20px;
+font-variant: all-petite-caps;
+font-family: proxyfont;
+color: #424242;
+text-align: left;
+display: block;
+padding: 5px 0;
+    padding-left: 0px;
+margin-bottom: 0;
+padding-left: 20px;
+}
+
+.content-contact .section-form-commandes{
+display: block;
+position: relative;
+margin: auto;
+background: white;
+padding: 0 15px;
+}
+
+.content-contact .section-form-contact .grids-form{
+ display: block;
+width: 100%;
+position: relative;
+min-height: 80px;
+}
+
+.section-form-contact .grids-form .succes-span {
+    display: block;
+    margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 15px;
+    box-shadow: none;
+    width: 100%;
+    color: #fff;
+    text-shadow: none;
+    background: #81aa7c;
+    padding: 30px 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 50px;
+}
+
+
+
+.section-form-contact .grids-form .succes-span i, .incorrect-span i {
+    color: white !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 15px !important;
+}
+
+.section-form-contact .grids-form .incorrect-span {
+    display: block;
+    margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 15px;
+    box-shadow: none;
+    width: 100%;
+    color: #fff;
+    text-shadow: none;
+    background: #f56060;
+    padding: 30px 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 50px;
+}
+
+.section-form-contact .grids-form i {
+    position: absolute;
+    top: 15px;
+    font-size: 25px;
+    color: #3e3e3e;
+    z-index: 99;
+    left: 25px;
+}
+
+.section-form-contact .grids-form input[type="text"] {
+    width: 100%;
+    padding: 15px 20px 15px 60px;
+    background: #f7f7f7;
+    color: #3e3e3e;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    font-size: 17px;
+    transition: 0.3s;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    position: absolute;
+    border-radius: 50px 50px 50px 50px;
+    border-radius:0;
+    float: none;
+    margin: auto;
+    left: 0;
+    z-index: 10;
+    top: 0;
+}
+
+.section-form-contact .grids-form .required-slide {
+    display: block;
+    background: #e70d32;
+    float: none;
+    margin: auto;
+    color: #d74a4a;
+    text-align: left;
+    font-size: 16px;
+    transition: 0.3s;
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    z-index: 3;
+    border-radius: 0 0 50px 50px;
+    border-radius:0;
+    top: 30px;
+    padding: 4px 55px;
+    animation-duration: 1.5s;
+}
+
+
+.section-form-contact .grids-form .required-i {
+    color: #ffb8b8 !important;
+}
+
+.section-form-contact .grids-form .required-input {
+    color: #d74a4a !important;
+    background: #fff5f5 !important;
+}
+
+.section-form-contact .grids-form .required-span {
+    background: #d74a4a !important;
+    color: #fff5f5 !important;
+    padding: 30px 55px 10px 55px !important;
+    animation-duration: 1.5s !important;
+}
+
+.section-form-contact .grids-form textarea {
+    width: 100%;
+    padding: 15px 20px 15px 60px;
+    background: #f7f7f7;
+    color: #3e3e3e;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    font-size: 17px;
+    transition: 0.3s;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    position: absolute;
+    border-radius: 50px 50px 50px 50px;
+    border-radius:0;
+    float: none;
+    margin: auto;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    height: 160px;
+    max-height: 160px;
+    min-height: 160px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.section-form-contact .grids-form .placeolderDescription{
+position: absolute;
+left: 60px;
+top: 15px;
+z-index: 99;
+font-variant: all-petite-caps;
+color: #424242;
+font-size: 17px;
+font-weight: bold;
+opacity: 0.6;
+display: block;
+}
+ 
+
+.section-form-contact .grids-form .btn-save {
+    font-size: 20px;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    background:  #e70d32;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-radius: 50pc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.section-form-contact .grids-form .btn-save i {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.section-form-contact .grids-form .btn-spin {
+    font-size: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-radius: 24px;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 70px;
+    opacity: 0.8;
+    cursor: progress;
+    cursor: wait;
+}
+
+.section-form-contact .grids-form .btn-spin i {
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: #242424;
+    font-size: 24px;
+    -webkit-animation: spin 0.7s linear infinite;
+    -moz-animation: spin 0.7s linear infinite;
+    animation: spin 0.7s linear infinite;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.content-section-categorie{
+
+    width: 100%;
+    height: 500px;
+    background: whitesmoke;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+        background-size: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+    margin: auto; 
+    transition:0.3s;
+    overflow: hidden;
+}
+
+.content-section-categorie::before{
+    content:'';
+    width: 100%;
+    height: 10px;
+    background: whitesmoke; 
+    position: absolute; 
+    display: block;
+    margin: auto;
+    left:0;
+    right:0;
+    bottom:0;
+    transition:0.3s;
+    overflow: hidden;
+}
+.content-section-categorie::after{
+    content:'';
+    width: 1%;
+    height: 10px;
+    background: #e70d32;; 
+    position: absolute; 
+    display: block;
+    margin: none;
+    left:0;
+    right:0;
+    bottom:0;
+    float:left;
+    transition:0.3s;
+    overflow: hidden;
+}
+
+.content-section-categorie .section-infos {
+position: absolute;
+width: 40%;
+background: transparent;
+height: 500px;
+opacity: 1;
+left: 0;
+top: 0;
+z-index: 1;
+}
+
+.content-section-categorie .section-infos .bg-shadow{
+    position: absolute;
+    width: 100%;
+    background: black;
+    height: 500px;
+    opacity: 0.5; 
+    top: 0;
+    z-index: 1;
+   
+
+}
+
+.content-section-categorie .bg-move-left{
+    animation-name:move_bannier;
+animation-duration:2s; 
+}
+
+.content-section-categorie .content-move-left {
+    animation-name:move_bannier;
+animation-duration:3s;
+}
+
+.content-section-categorie .bg-move-right{
+    animation-name:move_bg_right;
+animation-duration:2s;
+left:auto;
+right:0;
+}
+
+.content-section-categorie .content-move-right {
+    animation-name:move_action_right;
+animation-duration:3s;
+left:auto;
+right:0;
+}
+
+.content-section-categorie .section-infos .title-info-image{
+position: absolute;
+font-size: 30px;
+font-family: proxyfont;
+font-variant: all-petite-caps;
+color: white;
+width: 100%;
+background: transparent;
+height: auto;
+opacity: 1;
+top: 0;
+padding: 40px 20px 20px 20px;
+z-index: 2;
+text-align: left;  
+}
+
+.content-section-categorie .section-infos .grid-action-image{
+    position: absolute;
+width: 100%;
+background: transparent;
+height: auto;
+opacity: 1;
+bottom: 0;
+padding: 0;
+z-index: 3;
+text-align: center; 
+}
+
+.content-section-categorie .section-infos .btn-savoir-plus{
+position: relative;
+font-size: 20px;
+font-family: proxyfontbold;
+font-variant: all-petite-caps;
+color: white;
+background: #e70d32;
+height: auto;
+opacity: 1;
+left: 0;
+bottom: 40px;
+padding: 40px 20px 20px 20px;
+z-index: 2;
+text-align: left;
+cursor: pointer;
+display: block;
+margin: 0;
+top: 0;
+}
+
+.content-section-categorie .section-infos .more-info-image{
+position: relative;
+font-size: 14px;
+font-family: proxyfont;
+font-variant: all-petite-caps;
+color: white;
+background: transparent;
+height: auto;
+opacity: 1;
+left: 0;
+bottom: 0;
+padding: 20px;
+z-index: 2;
+display: block;
+width: 100%;
+margin: 0;
+top: 0;
+text-align: left;
+cursor:pointer;
+}
+
+.section-badge-confiance{
+margin-top: 40px;
+}
+
+
+.section-badge-confiance .grid-badge{
+position:relative;
+}
+
+.section-badge-confiance .grid-badge .icon-badge{
+    width: 100px;
+height: 100px;
+background: white;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-image: none;
+background-size: auto;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+display: block;
+background-position: center center;
+margin: 0;
+background-image: url(./public/files/emballage_alimentaire.jpg);
+margin: auto;
+}
+
+.section-badge-confiance .grid-badge .title-badge{
+text-align: center;
+display: block;
+font-size: 16px;
+font-family: proxyfont;
+font-variant: all-petite-caps;
+color: #424242;
+}
+
+
+.bg-image {
+    width: 100%;
+    height: 500px;
+    background: white;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+        background-size: auto;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+    margin: auto;
+    background-image: url(./public/files/vehicule.png);
+    background-size: contain;
+    position: relative;
+    background-size: contain;
+    position: relative;
+    background-size: 70%;
+}
+
+.title-entreprise{
+    text-align: left;
+font-size: 20px;
+font-variant: all-petite-caps;
+font-family: proxyfontbold;
+color: #424242;
+padding: 10px;
+position: relative;
+}
+.parag-entreprise{
+display: block;
+text-align: left;
+font-size: 14px;
+font-variant: all-petite-caps;
+font-family: proxyfont;
+color: #424242;
+background: whitesmoke;
+padding: 10px;
+}
+
+
+
+
+
+
+ 
+
+/*MOBILE RESPONSIVE*/
+@media screen and (max-width:767px){
+
+.content-posting{
+    padding:20px 0;
+}
+
+.title-categories-items span {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #e70d32;
+    font-size: 20px;
+    font-variant: all-petite-caps;
+    font-weight: bold;
+    text-decoration-style: dotted;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    border-bottom-color: #424242;
+    margin: auto;
+}
+
+.directory-up-produits{
+    margin-bottom:20px;
+}
+
+.details-items-produits{
+    padding: 20px 0 !important;
+}
+
+.details-items-produits .section-infos-products {
+    padding: 10px;
+    border:none;
+}
+
+
+.notif-succees-panier {
+    font-size: 12px;
+    font-variant: all-petite-caps;
+    background: transparent;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: -30px;
+    margin: 0;
+}
+
+
+.content-table-commandes .section-tables-commandes .ul-values-table li .input-quantite {
+    min-width: 60px;
+    padding: 10px 10px;
+    background: #ffe5e5;
+    color: #3e3e3e;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    font-size: 17px;
+    transition: 0.3s;
+    border: none;
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    float: none;
+    margin: auto;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    max-width: 60px;
+}
+
+
+
+.section-maps-contact iframe{
+border: 0;
+height: 300px;
+}
+
+.section-badge-confiance .grid-badge{
+position:relative;
+margin-bottom:40px;
+}
+
+.content-section-categorie .section-infos {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    height: auto;
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    top: auto;
+}
+.content-section-categorie .section-infos .bg-shadow {
+    position: absolute;
+    width: 100%;
+    background: black;
+    height: auto;
+    opacity: 0.5;
+    /*left: 0;*/
+    bottom: 0;
+    z-index: 1; 
+}
+.content-section-categorie .section-infos .title-info-image {
+    position: relative;
+    font-size: 30px;
+    font-family: proxyfont;
+    font-variant: all-petite-caps;
+    color: white;
+    width: 100%;
+    background: transparent;
+    height: auto;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    z-index: 2;
+    text-align: left;
+    display: block;
+}
+.content-section-categorie .section-infos .grid-action-image {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    height: auto;
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    z-index: 3;
+    text-align: center;
+
+}
+
+.bg-image {
+    width: 100%;
+    height: 300px;
+    background: white;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+        background-size: auto;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-image: none;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+    margin: auto;
+    background-image: url(./public/files/vehicule.png);
+    background-size: contain;
+    position: relative;
+    background-size: contain;
+    position: relative;
+}
+
+ 
+
+
+
+}
+
+ 
+ @keyframes move_bannier{
+  from{ opacity:0;left: -100%;  }  
+  to{  opacity:0.5;left: 0; }
+}
+
+
+@keyframes move_bg_left{
+  from{ opacity:0;left: 20%;  }  
+  to{  opacity:0.5;left: 0; }
+}
+@keyframes move_action_left{
+  from{ opacity:0;left: 40%;  }  
+  to{  opacity:1;left: 0; }
+}
+
+
+@keyframes move_bg_right{
+  from{ opacity:0;right: 20%;  }  
+  to{  opacity:0.5;right: 0; }
+}
+@keyframes move_action_right{
+  from{ opacity:0;right: 40%;  }  
+  to{  opacity:1;right: 0; }
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+ 
+

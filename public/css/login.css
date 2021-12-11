@@ -1,0 +1,229 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: proxyFont;
+}
+
+@font-face {
+  font-family: proxyFont;
+  src: url("../fonts/pplSansBig-Light.woff") format('woff');
+}
+@font-face {
+  font-family: proxyFontBold;
+  src: url("../fonts/pplSansBig-Regular.woff") format('woff');
+}
+
+body{
+
+  background-image: url(../files/icons-fastfood.svg);
+background-size: 40%;
+}
+
+.container-login{
+    padding-top: 60px;
+}
+
+.form-login{
+  width: 600px;
+float: none;
+margin: auto;
+min-height: auto;
+background: white;
+}
+
+.logo-form{
+    height: 80px;
+text-align: center;
+}
+
+.grids-line{
+display: block;
+width: 100%;
+position: relative;
+min-height: 80px;
+}
+
+.title-admin-page{
+    font-size: 30px;
+font-variant: all-petite-caps;
+font-family: proxyfontbold;
+}
+
+.incorrect-span {
+    display: block;
+    margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 30px;
+    box-shadow: none;
+    width: 100%;
+    color: #fff;
+    text-shadow: none;
+    background: #f56060;
+    padding: 30px 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 50px;
+}
+
+.incorrect-span i {
+    position: relative !important;
+top: 0 !important;
+font-size: 15px !important;
+color: white !important;
+z-index: 99 !important;
+left: 0 !important;
+}
+
+
+.grids-line i {
+    position: absolute;
+    top: 15px;
+    font-size: 25px;
+    color: #3e3e3e;
+    z-index: 99;
+    left: 25px;
+}
+.grids-line input {
+    width: 100%;
+    padding: 15px 20px 15px 60px;
+    background: #e8ffe5;
+    color: #3e3e3e;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    font-size: 17px;
+    transition: 0.3s;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    position: absolute;
+    border-radius: 50px 50px 50px 50px;
+    float: none;
+    margin: auto;
+    left: 0;
+    z-index: 10;
+    top: 0;
+}
+
+.grids-line .required-slide {
+    display: block;
+    background: #72c169;
+    float: none;
+    margin: auto;
+    color: #d74a4a;
+    text-align: left;
+    font-size: 16px;
+    transition: 0.3s;
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    z-index: 3;
+    border-radius: 0 0 50px 50px;
+    top: 30px;
+    padding: 4px 55px;
+    animation-duration: 1.5s;
+}
+
+.grids-line .btn-save {
+    font-size: 20px;
+    font-family: "proxyFont";
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    background: #72c169;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-radius: 50pc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.grids-line .btn-save i {
+    color: white !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 15px !important;
+}
+
+.grids-line .btn-spin {
+    font-size: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-stretch: extra-condensed;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    color: white;
+    padding: 20px;
+    display: block;
+    border-radius: 24px;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 70px;
+    opacity: 0.8;
+    cursor: progress;
+    cursor: wait;
+}
+
+.grids-line .btn-spin i {
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: #242424;
+    font-size: 31px;
+    -webkit-animation: spin 0.7s linear infinite;
+    -moz-animation: spin 0.7s linear infinite;
+    animation: spin 0.7s linear infinite;
+}
+ 
+
+/*MOBILE RESPONSIVE*/
+@media screen and (max-width:767px){
+ .form-login {
+    width: 600px;
+    float: none;
+    margin: auto;
+    min-height: auto;
+    background: transparent;
+    width: 100%;
+}
+
+}
+ 
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+ 
+
